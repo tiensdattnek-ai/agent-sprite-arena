@@ -1,0 +1,23 @@
+Request aspect 1:1. Do not state pixel sizes: the host image tool keeps the aspect and
+returns about 1254x1254 for it (area about 1,572,864 px).
+Attach guide.png as a layout and pose reference only. Do not draw any of its lines, boxes, colours,
+grey bands or stick figures.
+- 4 poses in 2 rows x 2 columns, read left to right, top row first.
+- The grey band around every cell is empty gutter: no pixel of the character may enter it.
+- Keep the whole character (ears, tail, both feet, held items) inside the blue safe box of its cell.
+- The black line is the ground and the tick is the fixed root: one body scale and one root in every cell.
+- The character faces RIGHT in every cell.
+- Match each cell's stick pose. ORANGE limbs are NEAR limbs (viewer side): normal brightness, drawn in
+  front. BLUE limbs are FAR limbs (away side): one shade darker, partly hidden behind the body.
+Poses (NEAR/FAR, never left/right):
+0 contact: NEAR leg reaches forward, heel on the ground line; FAR leg trails, foot lifted.
+1 passing: NEAR leg pushes off behind; FAR knee swings forward past it.
+2 contact: FAR leg reaches forward, heel on the ground line; NEAR leg trails, foot lifted.
+3 passing: FAR leg pushes off behind; NEAR knee swings forward past it.
+Frames 2-3 must not repeat frames 0-1: the leg drawn in front swaps between NEAR and FAR.
+Background: real transparency, or one flat chroma colour absent from the character.
+No text, labels, numbers, grid lines, shadows, dust or checkerboard.
+
+After generation: run sheet_qc.py spill on the raw sheet, then sheet_qc.py frames --cycle run.
+If the leading-leg test reports a duplicated half-cycle, regenerate only the second half,
+attaching the first half and this guide.

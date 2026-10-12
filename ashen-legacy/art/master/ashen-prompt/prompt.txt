@@ -1,0 +1,9 @@
+Create exactly ONE square image (1024x1024).
+
+Style: premium 16-bit pixel art (SNES era) for for a dark-fantasy pixel survival action RPG, crisp visible chunky pixels, limited palette, strong dark outline, 3-tone cel shading, no smooth gradients, no blur. No text, no letters, no numbers, no logo, no watermark, no signature, no UI, no border, no frame, no grid.
+
+Subject: a lone fox scavenger survivor, full body, side view (profile to three-quarter), clearly FACING RIGHT: its face, gaze and chest turn toward the RIGHT edge of the image; forward is RIGHT and its back is toward the LEFT edge. A lone fox standing upright on two legs like a person: dusty ember-orange fur darkened with soot, ashen-grey muzzle, chest and tail tip, large pointed ears with nicked dark tips, glowing warm amber eyes, a tattered charcoal-grey scarf wrapped around the neck, a worn brown leather satchel strap across the chest with a small bone charm hanging from it, fur slightly scruffy and weathered. Standing in a wary survivor stance, weight forward, paws ready.
+
+Size and position: one single figure, the top of the figure (including hair, headgear, raised weapons and effects) about 14 percent below the top edge of the canvas and its lowest point about 14 percent above the bottom edge (the figure about 72 percent of the canvas height), centred horizontally, generous empty magenta margin on every side, nothing touching or crossing the edges. The whole figure is drawn with solid, fully opaque pixels: no transparency, no semi-transparent glow, no soft aura, nothing blended with the background.
+
+Background: solid flat pure magenta #FF00FF everywhere outside the character, no shadow, no ground, no glow on the background.

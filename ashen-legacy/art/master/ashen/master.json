@@ -1,0 +1,161 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-12T10:19:43.828Z",
+  "name": "ashen-fox",
+  "subject": "a lone fox scavenger survivor, full body",
+  "identity_recap": "lone fox scavenger survivor, full body (a lone fox standing upright on two legs like a person: dusty ember-orange fur darkened with soot, ashen-grey muzzle, chest and tail tip, large pointed ears with nicked dark tips, glowing warm amber eyes, a tattered charcoal-grey scarf wrapped around the neck, a worn brown leather satchel strap across the chest with a small bone charm hanging from it, fur slightly scruffy and weathered)",
+  "facing": "right",
+  "view": "side view (profile to three-quarter)",
+  "finish": "pixel",
+  "class": "hero",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 788,
+    "top_margin_px": 138,
+    "lead_px": 0,
+    "preset": "hero",
+    "subject_bbox": [
+      188,
+      138,
+      836,
+      926
+    ],
+    "anchor": [
+      595.5,
+      926.0
+    ],
+    "opaque_area_px": 242533,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "24162c3001e1a48c7045d87c5a512c5b1ea72d1e97e8679cd02f4b06a6e70a70",
+      "bytes": 343043,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "cf53169baa18f2a7e4988b8de00d069bc5c4e22fbb6cbb7dcc461055e0ab1790",
+      "bytes": 407154,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "1df1c2c97464e1fd46ebdf886ee16c259f3ac4529b5b4f7b28c553d6d6d514a6",
+      "bytes": 1173465,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "e4dd08a79503e921be430053bb2b7d0c609e82b1e5ca92b133e1ed70919ed24f",
+      "bytes": 1383
+    },
+    "prompt": {
+      "path": "prompt.txt",
+      "sha256": "7c6545bb7628d81631bbb1ebcd4695a03008f6a59d398c4325570af68140b4b1",
+      "bytes": 1715
+    }
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1024,
+      1024
+    ],
+    "source_subject_bbox": [
+      122,
+      122,
+      779,
+      922
+    ],
+    "crop_box": [
+      116,
+      116,
+      785,
+      928
+    ],
+    "crop_margin_px": 6,
+    "scale": 0.985,
+    "offset": [
+      68.2575,
+      17.83
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "lanczos",
+    "premultiplied": true,
+    "alpha_floor_px": 3139,
+    "subject_parts": 1,
+    "ignored_parts": 0,
+    "ignored_px": 0,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "arena:generate_image",
+  "provenance": {
+    "command": "prompt",
+    "run": "../ashen-prompt",
+    "take": null,
+    "source_name": "generated.png",
+    "source_sha256": "1df1c2c97464e1fd46ebdf886ee16c259f3ac4529b5b4f7b28c553d6d6d514a6",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        253.0,
+        1.0,
+        250.0
+      ],
+      "source": "border_median",
+      "valid": true,
+      "ring_share": 1.0,
+      "coverage": 0.7574024200439453,
+      "distance_from_declared": 5.48
+    },
+    "quality": "soft",
+    "interior_despill": true,
+    "qa": {
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 0.042631169026279274,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 252937
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": []
+}

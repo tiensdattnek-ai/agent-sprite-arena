@@ -1,0 +1,46 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "action",
+  "frame_size": [
+    74,
+    82
+  ],
+  "output_origin": [
+    60.0,
+    81.0
+  ],
+  "sprite3d_offset": [
+    -23.0,
+    40.0
+  ],
+  "reference_subject_height_px": 80.0,
+  "world_height": 0.8,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.8,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "linear",
+  "duration_ms": 133,
+  "fps": 7.5046904315197,
+  "frames": [
+    "frames/frame-000.png",
+    "frames/frame-001.png",
+    "frames/frame-002.png",
+    "frames/frame-003.png"
+  ],
+  "frame_sha256": [
+    "a102bdeec76809022d4253163f88253772226fd2203e20e3c1d6276317f66690",
+    "77e1d551ad2a73e3d9bc02ab2f218afb284db99c137abc40025989e246017f1c",
+    "0e2fdb883791757f5db82c7cbfdc8de2b21675bd283b668c6b168ac5736d782c",
+    "2bd5eccfd9e373fb3a98f9f8af6d90788842e69a7d7cf6c3eedcba17f4a6248b"
+  ],
+  "durations_ms": [
+    133,
+    134,
+    133,
+    133
+  ],
+  "loop": true,
+  "loop_policy": "cycle",
+  "events_ms": []
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "action",
+  "world_height": 0.8,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "action": {
+      "contract": "action-action.json",
+      "loop": true,
+      "clip": "action"
+    }
+  }
+}

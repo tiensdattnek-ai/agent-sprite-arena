@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "ashen-fox",
+  "subject": "a lone fox scavenger survivor, full body",
+  "identity": "a lone fox standing upright on two legs like a person: dusty ember-orange fur darkened with soot, ashen-grey muzzle, chest and tail tip, large pointed ears with nicked dark tips, glowing warm amber eyes, a tattered charcoal-grey scarf wrapped around the neck, a worn brown leather satchel strap across the chest with a small bone charm hanging from it, fur slightly scruffy and weathered",
+  "pose": "standing in a wary survivor stance, weight forward, paws ready",
+  "recap": "lone fox scavenger survivor, full body (a lone fox standing upright on two legs like a person: dusty ember-orange fur darkened with soot, ashen-grey muzzle, chest and tail tip, large pointed ears with nicked dark tips, glowing warm amber eyes, a tattered charcoal-grey scarf wrapped around the neck, a worn brown leather satchel strap across the chest with a small bone charm hanging from it, fur slightly scruffy and weathered)",
+  "facing": "right",
+  "facing_parts": null,
+  "view": null,
+  "class": "hero",
+  "finish": "pixel",
+  "key": "#FF00FF",
+  "genre": "for a dark-fantasy pixel survival action RPG",
+  "pronoun": "it",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

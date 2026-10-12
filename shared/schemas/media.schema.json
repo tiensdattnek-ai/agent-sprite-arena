@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/0x0funky/agent-sprite-forge/main/shared/schemas/media.schema.json",
+  "title": "generate2dmedia contracts (Arena Edition)",
+  "description": "Contracts for the Arena route layer: the staged job, the commit line and the append-only generation ledger. There is exactly one image route (arena:generate_image) and no video route.",
+  "$defs": {
+    "job_v1": {
+      "description": "job.json written by route_media.py image and completed by route_media.py commit.",
+      "type": "object",
+      "required": ["schema", "kind", "route", "status", "createdAt", "promptFile", "promptSha256"],
+      "properties": {
+        "schema": {"const": "generate2dmedia.job.v1"},
+        "kind": {"const": "image"},
+        "route": {"const": "arena:generate_image"},
+        "status": {"enum": ["agent-request", "committed"]},
+        "createdAt": {"type": "string"},
+        "committedAt": {"type": "string"},
+        "promptFile": {"const": "prompt.txt"},
+        "promptSha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "references": {"type": "array", "items": {"type": "string"}},
+        "size": {"type": ["string", "null"], "pattern": "^\\d{1,5}[xX]\\d{1,5}$"},
+        "expectedArtifact": {"const": "generated.png"},
+        "artifact": {"type": "string"},
+        "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "width": {"type": ["integer", "null"], "minimum": 1},
+        "height": {"type": ["integer", "null"], "minimum": 1}
+      }
+    },
+    "commitLine": {
+      "description": "The canonical one-line JSON route_media.py commit prints on success.",
+      "type": "object",
+      "required": ["status", "route", "artifact", "sha256"],
+      "properties": {
+        "status": {"const": "ok"},
+        "route": {"const": "arena:generate_image"},
+        "artifact": {"type": "string", "minLength": 1},
+        "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "width": {"type": ["integer", "null"]},
+        "height": {"type": ["integer", "null"]},
+        "estimateUsd": {"const": null}
+      }
+    },
+    "noRouteLine": {
+      "description": "The one-line JSON every video request answers (exit 3).",
+      "type": "object",
+      "required": ["status", "kind", "fallback"],
+      "properties": {
+        "status": {"const": "no-route"},
+        "kind": {"const": "video"},
+        "route": {"const": null},
+        "reason": {"type": "string"},
+        "fallback": {"type": "string", "minLength": 1}
+      }
+    },
+    "ledgerLine": {
+      "description": "One append-only line of <project>/.forge/ledger.jsonl.",
+      "type": "object",
+      "required": ["ts", "tool", "route", "status", "artifact", "sha256"],
+      "properties": {
+        "ts": {"type": "string"},
+        "tool": {"const": "route_media"},
+        "kind": {"const": "image"},
+        "route": {"const": "arena:generate_image"},
+        "status": {"const": "done"},
+        "artifact": {"type": "string", "minLength": 1},
+        "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "promptSha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "estimateUsd": {"const": null}
+      }
+    }
+  }
+}

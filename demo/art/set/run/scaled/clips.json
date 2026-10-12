@@ -1,0 +1,26 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/walk-1.png",
+    "frames/walk-2.png",
+    "frames/walk-3.png",
+    "frames/walk-4.png"
+  ],
+  "anchor_px": [
+    51,
+    99
+  ],
+  "clips": {
+    "action": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ticks": 8,
+      "tick_hz": 60,
+      "loop_policy": "cycle"
+    }
+  }
+}

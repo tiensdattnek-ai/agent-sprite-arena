@@ -1,0 +1,7 @@
+{
+  "status": "no-route",
+  "kind": "video",
+  "route": null,
+  "reason": "the Arena agent has no image-to-video tool",
+  "fallback": "Animate with sprite sheets from the approved master still (generate2dsprite), process a user-supplied clip or frames (video2dsprite), or code-drawn animation on request (codeart2d)."
+}

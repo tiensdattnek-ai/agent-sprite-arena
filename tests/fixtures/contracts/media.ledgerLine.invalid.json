@@ -1,0 +1,8 @@
+{
+  "cases": [
+    {"why": "the tool is frozen", "set": "/tool", "value": "generate_media", "error": "$.tool:"},
+    {"why": "the route is frozen", "set": "/route", "value": "codex-cli", "error": "$.route:"},
+    {"why": "sha256 is mandatory", "remove": "/sha256", "error": "'sha256' is a required property"},
+    {"why": "no money on Arena", "set": "/estimateUsd", "value": 0.02, "error": "$.estimateUsd:"}
+  ]
+}

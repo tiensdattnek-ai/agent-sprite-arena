@@ -1,0 +1,9 @@
+{
+  "cases": [
+    {"why": "the schema id is frozen", "set": "/schema", "value": "generate2dmedia.job.v2", "error": "$.schema:"},
+    {"why": "there is exactly one route", "set": "/route", "value": "api:openai", "error": "$.route:"},
+    {"why": "unknown status", "set": "/status", "value": "done", "error": "$.status:"},
+    {"why": "promptSha256 is mandatory", "remove": "/promptSha256", "error": "'promptSha256' is a required property"},
+    {"why": "size must be WxH", "set": "/size", "value": "square", "error": "$.size:"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "generate2dsprite.master_spec.v1",
+  "name": "ember-fox",
+  "subject": "a small red fox adventurer, full body",
+  "identity": "a small red fox standing upright on two legs like a person: bright rust-red fur with a cream-white muzzle, chest and tail tip, large pointed ears with dark tips, a short brown leather satchel strap across the chest, a tiny green scarf around the neck, expressive amber eyes, a bushy tail held out behind",
+  "pose": "standing alert in a light ready stance, paws relaxed at the sides",
+  "recap": null,
+  "facing": "right",
+  "facing_parts": null,
+  "view": null,
+  "class": "hero",
+  "finish": "hd",
+  "key": "#FF00FF",
+  "genre": "for a side-scrolling action game",
+  "pronoun": "it",
+  "identity_ref": null,
+  "style_ref": null,
+  "allowed_text": null,
+  "extra_bans": [],
+  "opaque_parts": null,
+  "extra": null
+}

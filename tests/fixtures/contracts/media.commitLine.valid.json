@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "route": "arena:generate_image",
+  "artifact": "art/master/fox/takes/take1/generated.png",
+  "sha256": "44863b03e9909b7100e05b02526909a346fd7455183f6619e0fe6198c89981e0",
+  "width": 1024,
+  "height": 1024,
+  "estimateUsd": null
+}

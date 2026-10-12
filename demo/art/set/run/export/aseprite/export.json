@@ -1,0 +1,149 @@
+{
+  "frames": [
+    {
+      "filename": "0",
+      "frame": {
+        "x": 3,
+        "y": 3,
+        "w": 103,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 101
+      },
+      "duration": 133
+    },
+    {
+      "filename": "1",
+      "frame": {
+        "x": 110,
+        "y": 3,
+        "w": 103,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 101
+      },
+      "duration": 134
+    },
+    {
+      "filename": "2",
+      "frame": {
+        "x": 3,
+        "y": 108,
+        "w": 103,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 101
+      },
+      "duration": 133
+    },
+    {
+      "filename": "3",
+      "frame": {
+        "x": 110,
+        "y": 108,
+        "w": 103,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 101
+      },
+      "duration": 133
+    }
+  ],
+  "meta": {
+    "app": "agent-sprite-forge export_engine.py",
+    "version": "0.4.0",
+    "image": "export.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 216,
+      "h": 212
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "action",
+        "from": 0,
+        "to": 3,
+        "direction": "forward",
+        "color": "#000000ff"
+      }
+    ],
+    "layers": [
+      {
+        "name": "sprite",
+        "opacity": 255,
+        "blendMode": "normal"
+      }
+    ],
+    "slices": [
+      {
+        "name": "anchor",
+        "color": "#0000ffff",
+        "data": "{\"anchor_px\":[51.0,99.0]}",
+        "keys": [
+          {
+            "frame": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "w": 103,
+              "h": 101
+            },
+            "pivot": {
+              "x": 51,
+              "y": 99
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "animations": {
+    "action": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  }
+}

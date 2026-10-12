@@ -1,0 +1,641 @@
+{
+  "schema": "generate2dsprite.sheet_plan.v1",
+  "request": {
+    "frames": 6,
+    "cycle": "run",
+    "facing": "right",
+    "aspect": "auto",
+    "envelope_aspect": 1.0,
+    "safe": 0.15,
+    "gutter": 0.04,
+    "budget_px": 1572864,
+    "max_empty": 1
+  },
+  "predicted_size": [
+    1536,
+    1024
+  ],
+  "aspect": "3:2",
+  "layout": {
+    "rows": 2,
+    "cols": 3,
+    "empty_cells": 0,
+    "cell": [
+      512.0,
+      512.0
+    ],
+    "divides_exactly": true,
+    "safe_box": [
+      358.4,
+      358.4
+    ],
+    "envelope_px": [
+      358.4,
+      358.4
+    ]
+  },
+  "candidates": [
+    {
+      "aspect": "3:2",
+      "predicted_size": [
+        1536,
+        1024
+      ],
+      "rows": 2,
+      "cols": 3,
+      "empty_cells": 0,
+      "cell": [
+        512.0,
+        512.0
+      ],
+      "divides_exactly": true,
+      "safe_box": [
+        358.4,
+        358.4
+      ],
+      "envelope_px": [
+        358.4,
+        358.4
+      ]
+    },
+    {
+      "aspect": "2:3",
+      "predicted_size": [
+        1024,
+        1536
+      ],
+      "rows": 3,
+      "cols": 2,
+      "empty_cells": 0,
+      "cell": [
+        512.0,
+        512.0
+      ],
+      "divides_exactly": true,
+      "safe_box": [
+        358.4,
+        358.4
+      ],
+      "envelope_px": [
+        358.4,
+        358.4
+      ]
+    },
+    {
+      "aspect": "16:9",
+      "predicted_size": [
+        1672,
+        941
+      ],
+      "rows": 2,
+      "cols": 3,
+      "empty_cells": 0,
+      "cell": [
+        557.3,
+        470.5
+      ],
+      "divides_exactly": false,
+      "safe_box": [
+        390.1,
+        329.3
+      ],
+      "envelope_px": [
+        329.3,
+        329.3
+      ]
+    },
+    {
+      "aspect": "9:16",
+      "predicted_size": [
+        941,
+        1672
+      ],
+      "rows": 3,
+      "cols": 2,
+      "empty_cells": 0,
+      "cell": [
+        470.5,
+        557.3
+      ],
+      "divides_exactly": false,
+      "safe_box": [
+        329.3,
+        390.1
+      ],
+      "envelope_px": [
+        329.3,
+        329.3
+      ]
+    },
+    {
+      "aspect": "2:1",
+      "predicted_size": [
+        1774,
+        887
+      ],
+      "rows": 2,
+      "cols": 3,
+      "empty_cells": 0,
+      "cell": [
+        591.3,
+        443.5
+      ],
+      "divides_exactly": false,
+      "safe_box": [
+        413.9,
+        310.4
+      ],
+      "envelope_px": [
+        310.4,
+        310.4
+      ]
+    },
+    {
+      "aspect": "1:2",
+      "predicted_size": [
+        887,
+        1774
+      ],
+      "rows": 3,
+      "cols": 2,
+      "empty_cells": 0,
+      "cell": [
+        443.5,
+        591.3
+      ],
+      "divides_exactly": false,
+      "safe_box": [
+        310.4,
+        413.9
+      ],
+      "envelope_px": [
+        310.4,
+        310.4
+      ]
+    },
+    {
+      "aspect": "1:1",
+      "predicted_size": [
+        1254,
+        1254
+      ],
+      "rows": 2,
+      "cols": 3,
+      "empty_cells": 0,
+      "cell": [
+        418.0,
+        627.0
+      ],
+      "divides_exactly": true,
+      "safe_box": [
+        292.6,
+        438.9
+      ],
+      "envelope_px": [
+        292.6,
+        292.6
+      ]
+    },
+    {
+      "aspect": "1:1",
+      "predicted_size": [
+        1254,
+        1254
+      ],
+      "rows": 3,
+      "cols": 2,
+      "empty_cells": 0,
+      "cell": [
+        627.0,
+        418.0
+      ],
+      "divides_exactly": true,
+      "safe_box": [
+        438.9,
+        292.6
+      ],
+      "envelope_px": [
+        292.6,
+        292.6
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "box": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "safe_box": [
+        76.8,
+        76.8,
+        435.2,
+        435.2
+      ],
+      "gutter_px": 20,
+      "ground_y": 435.2,
+      "root_x": 273.9,
+      "used": true,
+      "phase": "contact",
+      "pose_bounds": [
+        155.1,
+        94.7,
+        379.9,
+        446.2
+      ],
+      "inside_safe_box": true,
+      "toe_ahead": "near",
+      "foot_gap_px": {
+        "near": 0.0,
+        "far": 83.2
+      }
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "box": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "safe_box": [
+        588.8,
+        76.8,
+        947.2,
+        435.2
+      ],
+      "gutter_px": 20,
+      "ground_y": 435.2,
+      "root_x": 785.9,
+      "used": true,
+      "phase": "down-passing",
+      "pose_bounds": [
+        703.4,
+        93.9,
+        857.4,
+        446.2
+      ],
+      "inside_safe_box": true,
+      "toe_ahead": "near",
+      "foot_gap_px": {
+        "near": 0.0,
+        "far": 77.0
+      }
+    },
+    {
+      "cell": [
+        0,
+        2
+      ],
+      "box": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "safe_box": [
+        1100.8,
+        76.8,
+        1459.2,
+        435.2
+      ],
+      "gutter_px": 20,
+      "ground_y": 435.2,
+      "root_x": 1297.9,
+      "used": true,
+      "phase": "passing-flight",
+      "pose_bounds": [
+        1191.6,
+        80.3,
+        1386.1,
+        436.7
+      ],
+      "inside_safe_box": true,
+      "toe_ahead": "far",
+      "foot_gap_px": {
+        "near": 37.1,
+        "far": 9.5
+      }
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "box": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "safe_box": [
+        76.8,
+        588.8,
+        435.2,
+        947.2
+      ],
+      "gutter_px": 20,
+      "ground_y": 947.2,
+      "root_x": 273.9,
+      "used": true,
+      "phase": "contact",
+      "pose_bounds": [
+        155.1,
+        606.7,
+        379.9,
+        958.2
+      ],
+      "inside_safe_box": true,
+      "toe_ahead": "far",
+      "foot_gap_px": {
+        "near": 83.2,
+        "far": 0.0
+      }
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "box": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "safe_box": [
+        588.8,
+        588.8,
+        947.2,
+        947.2
+      ],
+      "gutter_px": 20,
+      "ground_y": 947.2,
+      "root_x": 785.9,
+      "used": true,
+      "phase": "down-passing",
+      "pose_bounds": [
+        703.4,
+        605.9,
+        857.4,
+        958.2
+      ],
+      "inside_safe_box": true,
+      "toe_ahead": "far",
+      "foot_gap_px": {
+        "near": 77.0,
+        "far": 0.0
+      }
+    },
+    {
+      "cell": [
+        1,
+        2
+      ],
+      "box": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "safe_box": [
+        1100.8,
+        588.8,
+        1459.2,
+        947.2
+      ],
+      "gutter_px": 20,
+      "ground_y": 947.2,
+      "root_x": 1297.9,
+      "used": true,
+      "phase": "passing-flight",
+      "pose_bounds": [
+        1191.6,
+        592.3,
+        1386.1,
+        948.7
+      ],
+      "inside_safe_box": true,
+      "toe_ahead": "near",
+      "foot_gap_px": {
+        "near": 9.5,
+        "far": 37.1
+      }
+    }
+  ],
+  "phases": [
+    {
+      "index": 0,
+      "name": "contact",
+      "half": 0,
+      "near": [
+        30.0,
+        5.0
+      ],
+      "far": [
+        -28.0,
+        75.0
+      ],
+      "lift": 0.0,
+      "contact_leg": "near",
+      "ground": {
+        "near": true,
+        "far": false
+      }
+    },
+    {
+      "index": 1,
+      "name": "down-passing",
+      "half": 0,
+      "near": [
+        -1.6666666666666652,
+        36.66666666666667
+      ],
+      "far": [
+        0.6666666666666643,
+        105.0
+      ],
+      "lift": 0.0,
+      "contact_leg": "near",
+      "ground": {
+        "near": true,
+        "far": false
+      }
+    },
+    {
+      "index": 2,
+      "name": "passing-flight",
+      "half": 0,
+      "near": [
+        -27.666666666666664,
+        26.666666666666664
+      ],
+      "far": [
+        31.333333333333332,
+        41.66666666666668
+      ],
+      "lift": 0.09333333333333332,
+      "contact_leg": "near",
+      "ground": {
+        "near": false,
+        "far": false
+      }
+    },
+    {
+      "index": 3,
+      "name": "contact",
+      "half": 1,
+      "near": [
+        -28.0,
+        75.0
+      ],
+      "far": [
+        30.0,
+        5.0
+      ],
+      "lift": 0.0,
+      "contact_leg": "far",
+      "ground": {
+        "near": false,
+        "far": true
+      }
+    },
+    {
+      "index": 4,
+      "name": "down-passing",
+      "half": 1,
+      "near": [
+        0.6666666666666643,
+        105.0
+      ],
+      "far": [
+        -1.6666666666666652,
+        36.66666666666667
+      ],
+      "lift": 0.0,
+      "contact_leg": "far",
+      "ground": {
+        "near": false,
+        "far": true
+      }
+    },
+    {
+      "index": 5,
+      "name": "passing-flight",
+      "half": 1,
+      "near": [
+        31.333333333333332,
+        41.66666666666668
+      ],
+      "far": [
+        -27.666666666666664,
+        26.666666666666664
+      ],
+      "lift": 0.09333333333333332,
+      "contact_leg": "far",
+      "ground": {
+        "near": false,
+        "far": false
+      }
+    }
+  ],
+  "prompt": "prompt.txt",
+  "qa": {
+    "status": "pass",
+    "method": "geometry of the drawn guide plus sheet_qc.leg_lead/alternation_verdict on its own skeleton drawn clean on transparency",
+    "notProven": [
+      "That an image model follows the guide: not A/B tested (report v2 P2-4).",
+      "The host size rule was observed on 3 calls of one host tool; other tools differ."
+    ],
+    "checks": [
+      {
+        "id": "min_envelope",
+        "status": "pass",
+        "value": 358.4,
+        "threshold": 0.0,
+        "note": "predicted motion-envelope height per pose, in host pixels"
+      },
+      {
+        "id": "skeleton_in_safe_box",
+        "status": "pass",
+        "value": [],
+        "threshold": [],
+        "note": "every pose, line widths included, inside its safe box"
+      },
+      {
+        "id": "ground_contact",
+        "status": "pass",
+        "value": [],
+        "threshold": 1.0,
+        "note": "planted feet touch the ground line; airborne poses clear it"
+      },
+      {
+        "id": "leg_alternation",
+        "status": "pass",
+        "value": [
+          "near",
+          "near",
+          "far",
+          "far",
+          "unclear",
+          "near"
+        ],
+        "threshold": "lead differs between i and i+n/2",
+        "verdict": "alternates",
+        "pairs": [
+          [
+            0,
+            3,
+            false
+          ],
+          [
+            2,
+            5,
+            false
+          ]
+        ],
+        "note": "sheet_qc.py frames' NEAR/FAR test run on the guide's own skeleton"
+      }
+    ],
+    "inputs": [],
+    "outputs": [
+      {
+        "path": "guide.png",
+        "sha256": "722e8bcbca0f8659795666b8162592105ccb7489312610805bff94535f46aceb",
+        "bytes": 16681
+      },
+      {
+        "path": "guide.svg",
+        "sha256": "6c74df0961ee4dabbd730b75262ceef03aca535e19aa153ef7244a09b8783ceb",
+        "bytes": 7363
+      },
+      {
+        "path": "guide-annotated.png",
+        "sha256": "bebfaed331ff1778498635757e9352617ef4cb6f38031a7aebab0f641ca3744d",
+        "bytes": 22696
+      },
+      {
+        "path": "prompt.txt",
+        "sha256": "b67e8f68c28a2e5446191a2e71593986d655522e8f7101a2ebbbac9c708c1425",
+        "bytes": 2002
+      }
+    ],
+    "tool": {
+      "name": "plan_guide.py",
+      "version": "0.4.0"
+    }
+  },
+  "tool": {
+    "name": "plan_guide.py",
+    "version": "0.4.0"
+  }
+}

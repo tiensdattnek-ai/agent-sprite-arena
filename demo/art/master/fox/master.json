@@ -1,0 +1,163 @@
+{
+  "schema": "generate2dsprite.master.v1",
+  "tool": {
+    "name": "master_still",
+    "version": "0.4.0"
+  },
+  "created": "2026-10-12T09:54:10.313Z",
+  "name": "ember-fox",
+  "subject": "a small red fox adventurer, full body",
+  "identity_recap": "small red fox adventurer, full body (a small red fox standing upright on two legs like a person: bright rust-red fur with a cream-white muzzle, chest and tail tip, large pointed ears with dark tips, a short brown leather satchel strap across the chest, a tiny green scarf around the neck, expressive amber eyes, a bushy tail held out behind)",
+  "facing": "right",
+  "view": "side view (profile to three-quarter)",
+  "finish": "hd",
+  "class": "hero",
+  "framing": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "subject_height_px": 788,
+    "top_margin_px": 138,
+    "lead_px": 0,
+    "preset": "hero",
+    "subject_bbox": [
+      190,
+      138,
+      834,
+      926
+    ],
+    "anchor": [
+      638.5,
+      926.0
+    ],
+    "opaque_area_px": 244435,
+    "width_limited": false
+  },
+  "key": "#FF00FF",
+  "files": {
+    "master": {
+      "path": "master.png",
+      "sha256": "887d9204995f49e5952fccc7c29cf739c6973cf043e24d6f31261116dee43b89",
+      "bytes": 406916,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "cutout": {
+      "path": "master_rgba.png",
+      "sha256": "52e39e276b8744f9693206ca388b909b3d077149dbdba9671f3fb2e32c5bcef4",
+      "bytes": 476520,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "source": {
+      "path": "source.png",
+      "sha256": "12f6439ff6297fbf8f8ef3ab2044ca73a9a66dcbac7b10069fcc89252bb0d60f",
+      "bytes": 1192524,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "spec": {
+      "path": "spec.json",
+      "sha256": "1c8807f03ae7ca6238860343f31b0e87da4b11c5be803c7ec6243c38459b8b9b",
+      "bytes": 1197
+    },
+    "prompt": {
+      "path": "prompt.txt",
+      "sha256": "d40046293e21c4e17f228bc73ec33496b1671157c512e3f95bbc828b57f34a42",
+      "bytes": 1758
+    }
+  },
+  "references": [],
+  "transform": {
+    "mapping": "master = scale * source + offset (continuous pixel coordinates: pixel i spans [i, i + 1))",
+    "source_size": [
+      1024,
+      1024
+    ],
+    "source_subject_bbox": [
+      155,
+      172,
+      717,
+      860
+    ],
+    "crop_box": [
+      149,
+      166,
+      723,
+      866
+    ],
+    "crop_margin_px": 6,
+    "scale": 1.1453488372093024,
+    "offset": [
+      12.627906976744157,
+      -59.0
+    ],
+    "canvas": [
+      1024,
+      1024
+    ],
+    "resampler": "lanczos",
+    "premultiplied": true,
+    "alpha_floor_px": 3186,
+    "subject_parts": 1,
+    "ignored_parts": 0,
+    "ignored_px": 0,
+    "source_touches": [],
+    "key_rgb": [
+      255,
+      0,
+      255
+    ]
+  },
+  "route": "arena:generate_image",
+  "provenance": {
+    "command": "prompt",
+    "run": "../fox-prompt",
+    "take": null,
+    "source_name": "generated.png",
+    "source_sha256": "12f6439ff6297fbf8f8ef3ab2044ca73a9a66dcbac7b10069fcc89252bb0d60f",
+    "media": null,
+    "media_cli_source": null,
+    "edit": null
+  },
+  "matte": {
+    "requested": "soft",
+    "key_estimate": {
+      "key": [
+        253.0,
+        9.0,
+        250.0
+      ],
+      "source": "border_median",
+      "valid": true,
+      "ring_share": 1.0,
+      "coverage": 0.8196954727172852,
+      "distance_from_declared": 10.49
+    },
+    "quality": "soft",
+    "interior_despill": true,
+    "qa": {
+      "opaque_key_px": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "semitransparent_fraction": 0.03795429537372223,
+      "enclosed_key_pockets": 0,
+      "key_hued_px": 0,
+      "visible_px": 188121
+    },
+    "key_choice": {
+      "status": "ok",
+      "overlap_share": 0.0,
+      "rule": "reject a key when more than 0.5% of subject pixels have key dominance >= 40; first acceptable candidate wins"
+    }
+  },
+  "warnings": [
+    "the subject is upscaled x1.15 (688 px source height): detail will be soft; ask the route for a larger figure"
+  ]
+}

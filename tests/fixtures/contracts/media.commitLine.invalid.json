@@ -1,0 +1,8 @@
+{
+  "cases": [
+    {"why": "a commit is always ok", "set": "/status", "value": "agent-request", "error": "$.status:"},
+    {"why": "the route is frozen", "set": "/route", "value": "grok-cli", "error": "$.route:"},
+    {"why": "artifact is mandatory", "remove": "/artifact", "error": "'artifact' is a required property"},
+    {"why": "no money on Arena", "set": "/estimateUsd", "value": 0.04, "error": "$.estimateUsd:"}
+  ]
+}

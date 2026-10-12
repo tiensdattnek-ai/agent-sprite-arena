@@ -1,0 +1,28 @@
+Sprite sheet of the same small red fox adventurer, full body (a small red fox standing upright on two legs like a person: bright rust-red fur with a cream-white muzzle, chest and tail tip, large pointed ears with dark tips, a short brown leather satchel strap across the chest, a tiny green scarf around the neck, expressive amber eyes, a bushy tail held out behind).
+premium HD 2D game art, clean dark outline, cel shading, no blur, no photo-realism, no 3D render look.
+The FIRST attached image is the character master: copy its identity, colours and proportions exactly. The SECOND attached image is the layout guide only: do not draw any of its lines, boxes, colours or stick figures.
+- 6 poses in 2 rows x 3 columns (six poses), read left to right, top row first.
+- The grey band around every cell is empty gutter: no pixel of the character may enter it.
+- Keep the whole character (ears, tail, both feet, held items) inside the blue safe box of its cell.
+- The black line is the ground and the tick is the fixed root: one body scale and one root in every cell.
+- The character faces RIGHT in every cell.
+- Match each cell's stick pose. ORANGE limbs are NEAR limbs (viewer side): normal brightness, drawn in
+  front. BLUE limbs are FAR limbs (away side): one shade darker, partly hidden behind the body.
+Poses (NEAR/FAR, never left/right):
+0 contact: NEAR leg reaches forward, heel on the ground line; FAR leg trails, foot lifted.
+1 down: between down and passing: NEAR leg under the body, knee bent, carrying the weight; FAR leg folds up behind.
+2 passing: between passing and flight: NEAR leg pushes off behind; FAR knee swings forward past it.
+3 contact: FAR leg reaches forward, heel on the ground line; NEAR leg trails, foot lifted.
+4 down: between down and passing: FAR leg under the body, knee bent, carrying the weight; NEAR leg folds up behind.
+5 passing: between passing and flight: FAR leg pushes off behind; NEAR knee swings forward past it.
+Frames 3-5 must not repeat frames 0-2: the leg drawn in front swaps between NEAR and FAR.
+Background: real transparency, or one flat chroma colour absent from the character.
+No text, labels, numbers, grid lines, shadows, dust or checkerboard.
+
+After generation: run sheet_qc.py spill on the raw sheet, then sheet_qc.py frames --cycle run.
+If the leading-leg test reports a duplicated half-cycle, regenerate only the second half,
+attaching the first half and this guide.
+
+Background behind the character in every cell: solid flat pure magenta #FF00FF only, no shadow, no ground.
+
+Draw each pose small and centred with very large empty magenta gutters; the whole body, ears and bushy tail stay inside its own cell.

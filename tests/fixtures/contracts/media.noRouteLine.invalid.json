@@ -1,0 +1,7 @@
+{
+  "cases": [
+    {"why": "no-route only", "set": "/status", "value": "ok", "error": "$.status:"},
+    {"why": "video only", "set": "/kind", "value": "image", "error": "$.kind:"},
+    {"why": "the fallback is mandatory", "remove": "/fallback", "error": "'fallback' is a required property"}
+  ]
+}

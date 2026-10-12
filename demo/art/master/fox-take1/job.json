@@ -1,0 +1,17 @@
+{
+  "schema": "generate2dmedia.job.v1",
+  "kind": "image",
+  "route": "arena:generate_image",
+  "status": "committed",
+  "createdAt": "2026-10-12T09:53:25+00:00",
+  "promptFile": "prompt.txt",
+  "promptSha256": "d40046293e21c4e17f228bc73ec33496b1671157c512e3f95bbc828b57f34a42",
+  "references": [],
+  "size": "1024x1024",
+  "expectedArtifact": "generated.png",
+  "committedAt": "2026-10-12T09:54:08+00:00",
+  "artifact": "generated.png",
+  "sha256": "12f6439ff6297fbf8f8ef3ab2044ca73a9a66dcbac7b10069fcc89252bb0d60f",
+  "width": 1024,
+  "height": 1024
+}

@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3]
+
+[ext_resource type="Texture2D" path="export4-atlas-00.png" id="1_atlas00"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c0"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 3, 85, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c1"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(92, 3, 85, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c2"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 109, 85, 102)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c3"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(92, 109, 85, 102)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c0")
+}, {
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c1")
+}, {
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c2")
+}, {
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c3")
+}],
+"loop": true,
+"name": &"action",
+"speed": 60.0
+}]

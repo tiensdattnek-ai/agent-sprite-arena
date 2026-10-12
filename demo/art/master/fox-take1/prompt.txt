@@ -1,0 +1,9 @@
+Create exactly ONE square image (1024x1024).
+
+Style: premium HD 2D game art for for a side-scrolling action game: a clean, high-resolution hand-painted sprite illustration with crisp sharp edges, a clean dark outline, rich but controlled colours, cel shading with soft highlights and clear light and shadow shapes, fine readable detail, no blur, no photo-realism, no 3D render look. No text, no letters, no numbers, no logo, no watermark, no signature, no UI, no border, no frame, no grid.
+
+Subject: a small red fox adventurer, full body, side view (profile to three-quarter), clearly FACING RIGHT: its face, gaze and chest turn toward the RIGHT edge of the image; forward is RIGHT and its back is toward the LEFT edge. A small red fox standing upright on two legs like a person: bright rust-red fur with a cream-white muzzle, chest and tail tip, large pointed ears with dark tips, a short brown leather satchel strap across the chest, a tiny green scarf around the neck, expressive amber eyes, a bushy tail held out behind. Standing alert in a light ready stance, paws relaxed at the sides.
+
+Size and position: one single figure, the top of the figure (including hair, headgear, raised weapons and effects) about 14 percent below the top edge of the canvas and its lowest point about 14 percent above the bottom edge (the figure about 72 percent of the canvas height), centred horizontally, generous empty magenta margin on every side, nothing touching or crossing the edges. The whole figure is drawn with solid, fully opaque pixels: no transparency, no semi-transparent glow, no soft aura, nothing blended with the background.
+
+Background: solid flat pure magenta #FF00FF everywhere outside the character, no shadow, no ground, no glow on the background.

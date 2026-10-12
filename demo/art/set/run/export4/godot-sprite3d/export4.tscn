@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpriteFrames" path="export4.tres" id="1_frames"]
+
+[node name="export4" type="AnimatedSprite3D"]
+offset = Vector2(-15.5, 48.0)
+pixel_size = 0.01
+billboard = 1
+texture_filter = 3
+sprite_frames = ExtResource("1_frames")
+animation = &"action"
+autoplay = "action"
